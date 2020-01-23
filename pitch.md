@@ -48,4 +48,7 @@ Artifacts of this project may include test scripts, configuration files,
 specific tool recommendations, and integration steps for CI/CD pipelines.
 
 
-# Diagram, visual aid to explain the idea, etc. Anything useful to the discussion.
+# Diagram
+
+Conceptually...
+[Image]()
