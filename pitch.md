@@ -47,6 +47,8 @@ software security testing and verification.
 Artifacts of this project may include test scripts, configuration files, 
 specific tool recommendations, and integration steps for CI/CD pipelines.
 
+If possible, applying the ASVS verification to an existing application will be
+ part of this project.
 
 # Diagram
 
