@@ -1,11 +1,52 @@
 # Title of Project
-Automating OWASP ASVS Level 1 Verifications with Open Source Toolchains
+Automation of OWASP ASVS Level 1 Verifications with Open Source 
+Toolchains
+
 # Problem Statement
-The Open Web Application Security Project (OWASP) is known as one of the leading sources for web application security standards and references. It's goal is to provid
-What are the most salient aspects of the problem space? What have others done to address the problem?
+The Open Web Application Security Project (OWASP) is known 
+as one of the leading sources for web application security 
+standards, knowledge, and tools. It's goal is to provide 
+open access to make an applications more secure
+by empowering software teams with resources that
+are free available and vendor agnostic.
+
+One of the OWASP flagship projects is the
+Application Security Verification Standard (ASVS).
+
+The ASVS contains a list of 14 categories of requirements around
+verifying the security posture of an application. Each
+requirement is coded to level 1, 2, or 3 to represent an
+increasing level of depth to the verification.
+
+Of interest for this project is the statement that all
+level 1 verifications can be validated via black box penetration
+testing.
+
 # Opportunity
-What can still be done (e.g., int eh scope of a capstone project)? This isn't a full proposal, but provide enough detail for me to understand what you are thinking What kinds of research outcomes could come out of this idea?
+While the ASVS is a very detailed list of requirements to achieve a
+certain quantity around an applications security maturity,
+the ability to roll level 1 requirements into rolling is very
+dependent on the knowledge and skills of a penetration tester.
+
+Simultaneously, OWASP produces guidance around tactical security
+testing in various forms: cheat sheets, software testing guides,
+and various lists such as the top ten controls and top ten risks.
+
+The challenge comes in answering the question, can the penetration test
+activities purported to be achievable for a level 1 (baseline) 
+verification also be completed using open source tooling?  If so
+what does that look like? Can those same activities become automated
+using modern tooling? If not, where are the gaps for further research,
+ and are there options to use freely available (but not open source) software?
+
 # Value Proposition
-Why will your contributions matter? How will it help people?
-# A Picture.
-Diagram, visual aid to explain the idea, etc. Anything useful to the discussion.
+Combining the ASVS level 1 requirement verification tasks with open source
+tooling will undoubtedly provide a path for testers, CI pipelines,
+and security programs to literally level up their state of
+software security testing.
+
+Artifacts of this project may include test scripts, configuration files, 
+specific tool recommendations, and integration steps for CI/CD pipelines.
+
+
+# Diagram, visual aid to explain the idea, etc. Anything useful to the discussion.
