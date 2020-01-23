@@ -51,4 +51,4 @@ specific tool recommendations, and integration steps for CI/CD pipelines.
 # Diagram
 
 Conceptually...
-[Image]()
+![Image](extremely-high-level-process-diagram.png)
